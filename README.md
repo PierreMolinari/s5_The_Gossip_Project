@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h1>The Gossip Project</h1>
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<h3>controllers:</h3>
+home:
+    page acceuil du site avec tout les gossips afficher et un lien pour chaqu un
+user:
+    page identite de l utilisateur 'auteur'
+welcome:
+    on fait coucou
+gossip:
+    page d un potin avec son contenu et un lien pour afficher son auteur
+team:
+    ici c est nous
+contact:
+    any question ?
