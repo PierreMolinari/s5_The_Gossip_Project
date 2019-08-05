@@ -1,0 +1,14 @@
+<br/>
+<br/>
+<br/>
+<h1>Home</h1>
+<ul>
+    <% @gossips.each do |g| %>
+    <li>
+        <h3><%=link_to "#{g.title}", gossip_path(g.id)%></h3>
+        <p><%=g.content %></p>
+        <p>auteur : <%=g.user.last_name %></p>
+
+    </li>
+    <% end %>
+</ul>

@@ -1,0 +1,8 @@
+<br/>
+<br/>
+<br/>
+<br/>
+<h1><%= @gossip.title%></h1>
+<h3>auteur : <%=link_to "#{@gossip.user.first_name} #{@gossip.user.last_name}", user_path(@gossip.user.id)%><h3>
+<p>article : <%=@gossip.content%></p>
+

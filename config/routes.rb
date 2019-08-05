@@ -1,3 +1,11 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get '/team', to: 'team#show'
+  get '/contact', to: 'contact#show'
+  get '/welcome/:id', to: 'welcome#show'
+  resources :welcome, controller: 'welcome'
+  get '/home', to: 'home#show'
+  get '/gossip/:id', to: 'gossip#show'
+  resources :gossip, controller: 'gossip'
+  get '/user/:id', to: 'user#show'
+  resources :user, controller: 'user'
 end
